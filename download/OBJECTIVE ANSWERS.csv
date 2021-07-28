@@ -1,0 +1,67 @@
+BAD PRACTICE,P1,P2,P3,P4,P5,P6,P7,P8,P9,COUPLING,COHESION,COMPLEXITY,INHERITANCE,SIZE,TOTALS
+Monolithic builds are used in the pipeline,Not related,"Coupling, Complexity, Inheritance, Size","Cohesion, Complexity","Coupling, Cohesion, Complexity, Size",Coupling,Not related,"Cohesion, Complexity, Size",Size,"Coupling, Inheritance",4,3,4,2,4,17
+Environment variables are not used at all,Size,"Coupling, Complexity",Coupling,"Complexity, Size",Inheritance,"Coupling, Cohesion, Complexity, Inheritance",Size,Complexity,"Cohesion, Complexity, Size",3,2,5,2,4,16
+Project decomposition in the repository does not follow modularization principles,"Coupling, Cohesion, Complexity, Inheritance","Cohesion, Complexity",Cohesion,Coupling,Cohesion,Not related,"Coupling, Cohesion, Complexity",Cohesion,Cohesion,3,7,3,1,0,14
+Missing Package Management,"Complexity, Size","Coupling, Complexity",Complexity,"Complexity, Size",Complexity,Not related,"Cohesion, Complexity, Size",Coupling,Complexity,2,1,7,0,3,13
+Wide and incohesive build jobs are used,Not related,"Cohesion, Size","Complexity, Size","Coupling, Cohesion, Size",Inheritance,Not related,Size,"Coupling, Cohesion","Complexity, Size",2,3,2,1,5,13
+All permutations of feature toggles are tested,"Complexity, Size",Complexity,Complexity,"Complexity, Size",Complexity,Not related,"Complexity, Size","Coupling, Cohesion","Complexity, Size",1,1,7,0,4,13
+Unnecessary static analysis checks are included in the build process,"Cohesion, Complexity, Size","Cohesion, Complexity, Size",Cohesion,Complexity,Complexity,Not related,Size,Coupling,"Coupling, Size",2,3,4,0,4,13
+Changes are pulled before fixing a previous build failure,"Coupling, Cohesion, Complexity, Inheritance, Size",Inheritance,Complexity,"Coupling, Complexity",Coupling,Not related,Inheritance,Cohesion,Complexity,3,2,4,3,1,13
+Test cases are not organized in folders based on their purposes,"Coupling, Cohesion, Complexity","Cohesion, Complexity",Cohesion,"Cohesion, Complexity",Coupling,Not related,Complexity,Coupling,Inheritance,3,4,4,1,0,12
+"Missing smoke test, set of tests to verify the testability of the build",Cohesion,Complexity,Cohesion,Complexity,Coupling,"Coupling, Cohesion, Complexity, Inheritance, Size",Not related,Coupling,Complexity,3,3,4,1,1,12
+Coverage thresholds are too high,"Coupling, Cohesion, Complexity, Inheritance, Size",Size,Complexity,"Complexity, Size",Complexity,Not related,Not related,Coupling,Complexity,2,1,5,1,3,12
+Quality gates are defined without developers considering only what dictated by the customer,"Coupling, Cohesion, Complexity, Inheritance, Size",Cohesion,Cohesion,Complexity,Cohesion,Not related,Not related,"Coupling, Cohesion",Cohesion,2,6,2,1,1,12
+Feature branches are used instead of feature toggles,"Cohesion, Complexity, Size",Coupling,Complexity,Not related,Complexity,"Cohesion, Complexity",Not related,Coupling,"Coupling, Cohesion",3,3,4,0,1,11
+Including unneeded dependencies,Size,"Cohesion, Complexity, Size",Cohesion,"Coupling, Inheritance",Cohesion,Not related,"Cohesion, Size",Not related,Size,1,4,1,1,4,11
+Developers do not have a complete control of the environment,Not related,Coupling,Complexity,"Complexity, Size",Complexity,Not related,"Coupling, Cohesion, Complexity, Inheritance, Size",Not related,Complexity,2,1,5,1,2,11
+External tools are used with their default configurations,"Coupling, Cohesion, Complexity, Inheritance, Size",Not related,Size,"Coupling, Complexity",Complexity,Not related,Not related,Not related,Coupling,3,1,3,1,2,10
+Unneeded tasks are scheduled in the build process,Not related,"Cohesion, Complexity, Inheritance, Size",Not related,"Cohesion, Complexity",Not related,Not related,"Cohesion, Size",Coupling,Size,1,3,2,1,3,10
+Build time for the commit stage overcomes the 10-minutes rule,Not related,"Coupling, Size",Size,"Complexity, Size",Size,Complexity,Size,Not related,"Coupling, Size",2,0,2,0,6,10
+Authentication data is hardcoded (in clear) under VCS,Cohesion,Cohesion,Cohesion,Coupling,Coupling,Not related,"Coupling, Cohesion",Cohesion,"Cohesion, Size",3,6,0,0,1,10
+Absolute/machine-dependent paths are used,"Cohesion, Size",Coupling,Coupling,Coupling,Inheritance,Not related,Coupling,Cohesion,"Coupling, Inheritance",5,2,0,2,1,10
+Build configurations are cloned in the different environments,Not related,"Coupling, Complexity",Cohesion,"Complexity, Size",Inheritance,Not related,"Inheritance, Size",Coupling,Cohesion,2,2,2,2,2,10
+Code coverage tools are run only while performing testing different from unit and integration,Not related,Inheritance,Complexity,"Coupling, Cohesion, Complexity",Complexity,Not related,Complexity,Complexity,"Coupling, Inheritance",2,1,5,2,0,10
+Missing tests on feature branches,Not related,Inheritance,Cohesion,Complexity,Complexity,Not related,"Coupling, Cohesion, Inheritance",Coupling,"Coupling, Complexity",3,2,3,2,0,10
+Testing is not fully automated leading to a non-reproducible build,Not related,"Coupling, Complexity",Cohesion,"Complexity, Size",Coupling,Not related,Complexity,Cohesion,"Cohesion, Complexity",2,3,4,0,1,10
+Artifacts locally generated are deployed,Not related,Cohesion,Complexity,Coupling,Complexity,"Coupling, Cohesion, Inheritance","Coupling, Complexity",Not related,Coupling,4,2,3,1,0,10
+Build failures are not fixed immediately giving priority to other changes,"Complexity, Size","Coupling, Size",Complexity,"Coupling, Complexity",Coupling,Not related,Not related,Coupling,Complexity,4,0,4,0,2,10
+Different plugins are used to perform the same task in the same build process,Not related,"Cohesion, Complexity, Inheritance",Cohesion,"Cohesion, Complexity",Cohesion,Not related,Cohesion,Not related,Coupling,1,5,2,1,0,9
+A task is implemented using an unsuitable tool/plugin,Not related,Cohesion,Inheritance,"Coupling, Cohesion, Complexity",Cohesion,Not related,Size,Coupling,Coupling,3,3,1,1,1,9
+Build steps are not properly ordered,Not related,Complexity,Coupling,"Coupling, Cohesion, Complexity",Cohesion,Not related,Not related,Coupling,"Coupling, Inheritance",4,2,2,1,0,9
+Dependency management is not used,Complexity,Complexity,Cohesion,Size,Inheritance,Not related,Size,"Coupling, Cohesion",Cohesion,1,3,2,1,2,9
+Lack of testing in a production-like environment,Not related,Inheritance,Cohesion,Complexity,Complexity,Not related,"Coupling, Cohesion, Inheritance",Inheritance,Cohesion,1,3,2,3,0,9
+Missing artifacts repository,Not related,Coupling,Cohesion,"Complexity, Size",Not related,Not related,"Coupling, Cohesion, Complexity",Cohesion,Cohesion,2,4,2,0,1,9
+Number of branches do not fit the project needs/characteristics,Not related,Size,Complexity,"Coupling, Cohesion",Coupling,Not related,Size,Cohesion,Cohesion,2,3,1,0,2,8
+Resources related to the same pipeline stage are distributed over several servers,Not related,Size,Cohesion,Complexity,Coupling,Cohesion,Size,Size,Size,1,2,1,0,4,8
+Different releases of tools/plugins versions are installed on the same server,Not related,Inheritance,Complexity,Complexity,Size,Not related,Cohesion,"Coupling, Cohesion",Cohesion,1,3,2,1,1,8
+The output of different build tasks are mixed in the build output,Not related,Cohesion,Complexity,"Coupling, Complexity",Cohesion,Not related,Cohesion,"Coupling, Cohesion",Not related,2,4,2,0,0,8
+Build scripts are highly dependent upon the IDE,Cohesion,"Coupling, Cohesion",Coupling,Coupling,Coupling,Not related,Coupling,Not related,Coupling,6,2,0,0,0,8
+Lengthy build scripts,Not related,"Complexity, Size",Complexity,"Cohesion, Size",Size,Not related,Complexity,Not related,Complexity,0,1,4,0,3,8
+Missing rollback strategy,Not related,Complexity,Not related,"Inheritance, Size","Complexity, Size",Not related,Size,Not related,"Coupling, Cohesion",1,1,2,1,3,8
+Release tag strategy is missing,Not related,Complexity,"Coupling, Cohesion",Complexity,Coupling,Not related,Cohesion,Not related,"Coupling, Inheritance",3,2,2,1,0,8
+Missing check for deliverables,Not related,Not related,Complexity,Complexity,Complexity,Not related,"Cohesion, Complexity",Cohesion,"Cohesion, Complexity",0,3,5,0,0,8
+Divergent Branches,Not related,Inheritance,Complexity,Not related,Not related,Not related,"Cohesion, Complexity","Cohesion, Complexity",Cohesion,0,3,3,1,0,7
+Inappropriate build environment clean-up strategy,Not related,Coupling,Not related,"Complexity, Size",Size,Not related,Size,Complexity,Size,1,0,2,0,4,7
+Some pipeline's tasks are started manually,Not related,Complexity,Not related,"Complexity, Size",Complexity,Not related,Complexity,Not related,"Coupling, Inheritance",1,0,4,1,1,7
+"A build fails because of some flakiness in the execution, whereas it should not",Not related,Coupling,Coupling,Complexity,Cohesion,Not related,Not related,Cohesion,"Coupling, Cohesion",3,3,1,0,0,7
+"Build reports contain verbose, irrelevant information",Not related,"Complexity, Size",Cohesion,"Coupling, Cohesion, Complexity",Not related,Not related,Not related,Not related,Size,1,2,2,0,2,7
+Unnecessary re-build steps are performed,Not related,Complexity,Complexity,"Cohesion, Complexity",Complexity,Not related,Size,Not related,Coupling,1,1,4,0,1,7
+Missing/Poor strict naming convention for build jobs,Not related,Cohesion,Cohesion,Complexity,Complexity,Not related,Complexity,Inheritance,Complexity,0,2,4,1,0,7
+Production resources are used for testing purposes,Not related,Cohesion,Cohesion,Not related,Cohesion,Not related,Cohesion,Inheritance,"Coupling, Size",1,4,0,1,1,7
+Team meeting/discussion is performed just before pushing on the master branch,Not related,Coupling,Complexity,Complexity,Not related,Not related,Complexity,Coupling,"Cohesion, Complexity",2,1,4,0,0,7
+Local and remote workspace are not aligned,Not related,Inheritance,Cohesion,Not related,Not related,Not related,"Coupling, Cohesion, Complexity",Size,Not related,1,2,1,1,1,6
+Blobs are unnecessarily checked-in at every build instead of being cached,Not related,Complexity,Complexity,Complexity,Coupling,Not related,Size,Not related,Complexity,1,0,4,0,1,6
+"Generated artifacts are versioned, while they should not",Not related,Complexity,Complexity,Not related,Cohesion,Not related,Size,Cohesion,Complexity,0,2,3,0,1,6
+Private builds are not used,Not related,Inheritance,Not related,"Complexity, Size",Size,Not related,Not related,Coupling,Complexity,1,0,2,1,2,6
+Some tasks are executed without clearly reporting their results in the build output,Not related,Not related,Not related,"Cohesion, Complexity",Not related,Not related,Complexity,Cohesion,"Coupling, Inheritance",1,2,2,1,0,6
+Missing notification mechanism,Not related,Not related,Not related,"Complexity, Size",Not related,Not related,Not related,"Coupling, Cohesion","Coupling, Complexity",2,1,2,0,1,6
+The CI server hardware is used for different purposes other than running the CI framework,Not related,Cohesion,Size,Cohesion,Cohesion,Not related,Size,Not related,Not related,0,3,0,0,2,5
+"Only the last commit is built, aborting obsolete and queued builds",Not related,Not related,Complexity,"Complexity, Size",Cohesion,Not related,Not related,Not related,Cohesion,0,2,2,0,1,5
+Failures notifications are only sent to teams/developers that explicitly subscribed,Not related,Not related,Not related,"Complexity, Size",Not related,"Coupling, Inheritance",Not related,Coupling,Not related,2,0,1,1,1,5
+Use quality gates in order to monitor the activity of specific developers,Not related,Cohesion,Coupling,Size,Not related,Not related,Cohesion,Not related,Coupling,2,2,0,0,1,5
+Developers and operators are kept as separate roles,Not related,Cohesion,Complexity,Complexity,Not related,Not related,"Coupling, Cohesion",Not related,Not related,1,2,2,0,0,5
+Issue notifications are ignored,Not related,Not related,Complexity,Complexity,Coupling,Not related,Not related,Coupling,Coupling,3,0,2,0,0,5
+Pipeline steps/stages are skipped arbitrarily,Not related,Not related,Not related,"Complexity, Size",Not related,Not related,Complexity,Not related,Cohesion,0,1,2,0,1,4
+Poor build triggering strategy,Not related,Cohesion,Not related,Not related,Cohesion,Not related,Not related,Inheritance,Coupling,1,2,0,1,0,4
+A build is succeeded when a task is failed or an error is thrown,Not related,Not related,Cohesion,Complexity,Not related,Not related,Not related,Cohesion,Not related,0,2,1,0,0,3
+TOTALS,,,,,,,,,,120,144,167,45,93,569
